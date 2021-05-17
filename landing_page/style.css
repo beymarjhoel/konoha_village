@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#titulo {
+    background: black;
+    color: white;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding: 1rem; 
+    align-items: center;
+}
+
+
+.container-left {
+    width:50%;
+}
+
+#fundo {
+    height: 500px;
+    width: 650px;
+    border-radius: 1rem;
+}
+
+.container-right {
+    justify-items: center;  
+    width:50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.caixa {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.caixa p {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+}
+input[type=checkbox] {
+    margin: -130px;
+} 
+
+input[type=button] {
+    height: 40px;
+    background-color: rgba(243,106,62,255);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.5rem ;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1.4rem;
+    background: black;
+    color: white;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
